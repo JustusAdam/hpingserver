@@ -26,6 +26,6 @@ Current output of `hpingserver -h`:
         Show all help options.
 
     Application Options:
-      -d, --delayy :: int
+      -d, --delay :: int
         How long to wait between requests (seconds)
         default: 30

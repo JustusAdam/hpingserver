@@ -16,7 +16,7 @@ instance Options MainOptions where
   defineOptions = MainOptions
     <$> defineOption
           optionType_int
-          (\o -> o { optionLongFlags = ["delayy"]
+          (\o -> o { optionLongFlags = ["delay"]
                    , optionShortFlags = ['d']
                    , optionDescription = "How long to wait between requests (seconds)"
                    , optionDefault = 30
