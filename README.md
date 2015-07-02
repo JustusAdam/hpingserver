@@ -7,11 +7,15 @@ This small program will repeatedly try to connect to a url until the connection 
 ## Installation
 
 - clone the repository
-- `cabal install`
+- execute `cabal install` in the repository root directory.
+
+The program is now reachable with the `hpingserver` command.
 
 ## Usage
 
-Use `hpingserver -h` to see all available options.
+Basic: `hpingserver [OPTIONS] URL`
+
+Use `hpingserver -h` to see all available OPTIONS.
 
 Current output of `hpingserver -h`:
 
